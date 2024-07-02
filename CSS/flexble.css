@@ -1,0 +1,57 @@
+h1 {
+    color: rgb(212, 74, 97);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+.container{
+    background-color: #eaeaed;
+    margin-bottom: 25px;
+    zoom: 1;
+}
+
+.container-75{
+    width: 75%;
+
+}
+
+.container-50{
+    width: 50%;
+}
+
+section, aside {
+    background-color: #2db34a;
+    color: #ffffff;
+    margin: 1.858%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container, section, aside {
+    border-radius: 6px;
+}
+
+section{
+    float: left;
+    width: 63.1%;
+}
+
+aside{
+    float: right;
+    width: 29.3%;
+}
+
+.container::before,
+.container::after{
+    content: '';
+    display: table;
+}
+
+.container::after{
+    clear: both;
+}
+
+.container:hover{
+    cursor: pointer;
+}
